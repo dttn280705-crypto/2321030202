@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daotao HUMG</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        ul{
+            margin:0px;
+        }
+        .menu{
+            background-color:#2fa4e7;
+            margin: 0px;
+        }
+        .danh-sách-mục{
+       /*bỏ dấu chấm của list*/ 
+       list-style:none;
+       margin:0px;
+       display: flex;
+        }
+        .mục{
+        color: white ;
+        /*background-color: red;*/
+        padding: 15px;
+        /*font-weight : bold;*/
+        }
+        a{
+            color:white ;
+            text-decoration:none ;
+        }
+        main{
+            display: flex;
+        }
+        .khoi-trai{
+    
+            width : 20%;
+            height: 500px;
+        }
+        .khoi-phai{
+            background-color: green;
+            width : 80%;
+            height: 500px;
+        }
+        .dang-nhap{
+            background-color: grey;
+            height: 200px;
+        }
+        form{
+            width: 90px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <!-- Thanh menu-->
+        <nav class="menu">
+            <ul class="danh-sách-mục">
+                <li class="mục"><a href="a">Thực tập , đồ án</a></li>
+                <li class="mục"><a href="a">Thủ tục một cửa </a></li>
+                <li class="mục"><a href="a"> Một cửa online</a></li>
+                <li class="mục"><a href="a"> E-mail HUMG </a></li>
+            </ul>
+        </nav>
+        <!-- Nội dung chính -->
+        <main> 
+            <div class="khoi-trai">
+             <div class="dang-nhap">
+                <form action="">
+                    <p> Tài khoản </p>
+                    <input type="text" >
+                    <p> Mật khẩu </p>
+                    <input type="password">
+                    <div>
+                        <button> đăng nhập</button>
+                    </div>
+                    <div style="width :100% ">
+                    <button> mật khẩu </button>
+                    </div>
+
+                </form>
+                
+            </div>
+            <div class="khoi-phai">
+                Phải
+            </div>
+        </main>
+</body>
+</html>
