@@ -39,11 +39,12 @@
         .khoi-trai{
     
             width : 20%;
-            height: 90vh;
+            height: calc(100vh - 80px);
             /*để vẽ đường viền border 
             borden sẽ có 3 tham số (độ dày - loại đường viền - màu sắc ) 
             */
             border-right: 1px solid #2fa4e7 ;
+            position: relative;
 
         }
         p{
@@ -143,10 +144,24 @@
             color: #2fa4e7;
             text-decoration: none;
         }
+        .thong-bao .bai-viet:nth-child(3){
+            border-left: 1px solid #2fa4e7;
+            padding-left: 20px;
+        }
+        .logo-truong{
+            width : 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+        }
 
     </style>
 </head>
 <body>
+
+
+
     <!-- Thanh menu-->
         <nav class="menu">
             <ul class="danh-sách-mục">
@@ -185,9 +200,14 @@
              <div class="khao-sat">
                 <a class="chuc-nang-khao-sat" href="#"> Khảo sát đánh giá </a>
              </div>
+             <div class="logo-truong">
+            <img src="logo.png" alt="">
+            <p>MHN-V 2026.08F.29</p>
+            <P>Design by aqtech</P>
+        </div>
             </div>
         </div> 
-
+        
 
 
 
@@ -196,8 +216,8 @@
         <div class="khoi-phai">
 
 
-            <!-- Tin tức -->
 
+            <!-- Tin tức -->
 
             <div class="tin">
                 <!-- Tin trên -->
@@ -248,21 +268,24 @@
             </div>
 
 
+
+
+
             <!-- Thông báo -->
-
-
 
              <div class="tin">
                 <!-- Tin trên -->
                 <div class="tin-tren">
-                    <h3 class="tieu-de">Tin tức</h3>
+                    <h3 class="tieu-de">Thông Báo</h3>
                     <p>
                         <a class="xem-tiep" href="">
                             Xem tiếp >
                         </a>
                     </p>
                 </div>
+
             <!-- Danh sách tin -->
+
                 <div class="danh-sach-tin">
                     <div class="bai-viet">
                         <div class="bai-viet-khoi-anh">
@@ -288,19 +311,32 @@
                               
                         </div>
                     </div>
-                    <div class="bai-viet">
-                        <div class="bai-viet-khoi-anh"> 
+                    <div class="bai-viet" style="border-left: 1px solid #2fa4e7; padding-left: 20px;">
+                        <div class="bai-viet-thoi-gian"> 
                         </div>
+                    
+                        
                         <div>
                     
-                            <p>Thông báo về việc thực tập tốt nghiệp/doanh nghiệp và Đồ án/khóa luận tốt nghiệp của sinh viên đợt 1A năm học 2026-2027</p><br>
-                            <p>Về việc đăng ký khối lượng học tập học kỳ 1 năm học 2026-2027</p><br>
-                            <p>Thông báo về việc kiểm tra điều kiện xét tốt nghiệp đợt 3 năm học 2025-2026 ( tháng 7 / 2026 )</p><br>
+                            <p>Thông báo về việc thực tập tốt nghiệp/doanh nghiệp và Đồ án/khóa luận tốt nghiệp của sinh viên đợt 1A năm học 2026-2027 </p> 
+                            <div class="bai-viet-thoi-gian">
+                            <p>24/08/2026</p>
+                        </div><br>
+                            <p>Về việc đăng ký khối lượng học tập học kỳ 1 năm học 2026-2027</p>
+                            <div class="bai-viet-thoi-gian">
+                            <p>11/08/2026</p>
+                        </div> <br>
+                            <p>Thông báo về việc kiểm tra điều kiện xét tốt nghiệp đợt 3 năm học 2025-2026 ( tháng 7 / 2026 )</p>
+                            <div class="bai-viet-thoi-gian">
+                            <p>20/07/2026</p>
+                        </div><br>
                         </div>
                 </div>
             </div>
              </div>
             
+
+
 
             <!-- Hướng dẫn -->
 
@@ -338,13 +374,23 @@
                             <p>Hướng dẫn lấy lại mật khẩu trang web daotaodaihoc.humg.edu.vn</p>
                         </div>
                     </div>
-                    <div class="bai-viet">
+                    <div class="bai-viet" style="border-left: 1px solid #2fa4e7; padding-left: 20px;">
                         <div class="bai-viet-khoi-anh"> 
                         </div>
                         <div>
-                            <p>Hướng dẫn lấy lại mật khẩu e-mail HUMG</p><br>
-                            <p>Hướng dẫn đăng ký khối lượng học tập tại trang web daotaodaihoc.humg.edu.vn</p><br>
-                            <p>Hướng dẫn kiểm tra, tra cứu trực tuyến thông tin về bằng tốt nghiệp của trường Đại học Mỏ - Địa chất</p><br>
+                            <p>Hướng dẫn lấy lại mật khẩu e-mail HUMG</p>
+                            <div class="bai-viet-thoi-gian">
+                            <p>01/08/2023</p>
+                        </div><br>
+                            <p>Hướng dẫn đăng ký khối lượng học tập tại trang web daotaodaihoc.humg.edu.vn</p>
+                                <div class="bai-viet-thoi-gian">
+                            <p>19/12/2024</p>
+                        </div><br>
+                            <p>Hướng dẫn kiểm tra, tra cứu trực tuyến thông tin về bằng tốt nghiệp của trường Đại học Mỏ - Địa chất</p>
+                            <div class="bai-viet-thoi-gian">
+                            <p>11/05/2021
+                            </p>
+                        </div><br>
                         </div>
                  </div>
             </div>
@@ -353,8 +399,6 @@
 
 
                     <!--Cai dat ap mobile-->  
-
-
 
                     <div class="tin">
                 <div class="tin-tren">
@@ -384,9 +428,6 @@
                  </div>
                     </div> 
                      
-
-
-
               
         <!-- kết thúc khối phải  -->
 
