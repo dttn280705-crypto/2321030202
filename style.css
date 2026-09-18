@@ -70,13 +70,13 @@ body{
         border-radius: 20px;
     }
 }
-.avata{
+.nhanvat{
     width : 100%;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
 }
-.ava{
+.nv{
     width: 14%;
     height: 20vh;
     margin: 20px 0px;
