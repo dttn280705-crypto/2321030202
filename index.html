@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ-Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--đầu trang-->
+    <header>
+        <!--danh mục-->
+        <nav class="danh-muc">
+            <ul class="danh-sach-muc">
+                <img class="logo" src="logo.svg" alt="">
+                <li class="muc dang-chon"><a class="lien-ket-muc dang-chon" href="#" > Trang chủ </a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Nhân vật </a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Series </a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Phim</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Mới & Phổ biến </a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Netflix của tôi </a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#" > Duyệt tìm theo ngôn ngữ </a></li>
+            </ul>
+        </nav>
+        <div class="chuc-nang">
+            <img class="avatar" src="ảnh trẻ em.jpg" alt=""> 
+        </div>
+        
+        </div>  
+    </header>
+    <!--Nội dung chinh trang-->
+    <main>
+        <div class="banner">
+           <iframe class="video" src="https://www.youtube.com/embed/GV3HUDMQ-F8?si=5gM7_jvdlnU_rqm5"> </iframe>
+        </div> 
+        
+
+
+        <!--Thể loại -->  
+
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                 <h3> Phim hoạt hình</h3>
+            </div>
+            <div   class="danh-sach-phim">
+                <div  onclick ="chonPhim(1)"class="phim">
+                    <img class="anh-bai" src="33.jpg" alt=""> 
+                    <p>Hàng xóm của tôi là Totoco</p>
+                </div>
+                <div onclick ="chonPhim(2)"  class="phim">
+                    <img class="anh-bai" src="66.jpg" alt=""> 
+                    <p>Đấu trường âm nhạc 2</p>
+                </div>
+                <div onclick ="chonPhim(3)" class="phim">
+                    <img  class="anh-bai"src="22.jpg" alt=""> 
+                    <p>Peter Rabbit2 : Cuộc trốn chạy</p>
+                </div>
+                <div onclick ="chonPhim(4)"  class="phim">
+                    <img  class="anh-bai" src="55.jpg" alt=""> 
+                    <p>Những mảnh ghép cảm xúc</p>
+                </div>
+                <div onclick ="chonPhim(5)"  class="phim">
+                    <img  class="anh-bai" src="11.jpg" alt="">
+                    <p>Biệt đội chuột chũi </p>
+                </div>
+            </div>
+        </div><br>
+        
+        <div class="the-loai" >
+            <div class="ten-the-loai">
+                 <h3>Động vật </h3>
+            </div>
+            <div  class="danh-sach-phim">
+                <div   onclick ="chonPhim(6)"class="phim">
+                    <img class="anh-bai" src="dv1.jpg" alt=""> 
+                    <p>Kỷ Băng Hà (Ice Age)</p>
+                </div>
+                <div  onclick ="chonPhim(7) "class="phim">
+                    <img  class="anh-bai" src="dv2.jpg" alt=""> 
+                    <p>Madagascar</p>
+                </div>
+                <div  onclick ="chonPhim(8)" class="phim">
+                    <img class="anh-bai" src="dv3.jpg" alt=""> 
+                    <p>Kung Fu Panda</p>
+                </div>
+                <div onclick ="chonPhim(9) "class="phim">
+                    <img class="anh-bai" src="dv5.jpg" alt=""> 
+                    <p> Boonie Bears: Những Chú Gấu Tí Hon 2</p>
+                    
+                </div>
+                <div  onclick ="chonPhim(10)"class="phim">
+                    <img class="anh-bai" src="dv6.jpg" alt="">
+                    <P>Đẳng Cấp Thú Cưng (The Secret Life of Pets)</P>
+            
+                </div>
+            </div>
+        </div><br>
+                
+            
+
+        <div class="the-loai" >
+            <div class="ten-the-loai">
+                 <h3>Phim chiếu rạp </h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div onclick ="chonPhim(11)" class="phim">
+                    <img class="anh-bai" src="f1.jpg" alt=""> 
+                    <p> Thám Tử Kiên: Kỳ Án Không Đầu</p>
+                </div>
+                <div onclick ="chonPhim(12)" class="phim">
+                    <img class="anh-bai" src="f2.jpg" alt=""> 
+                    <p> Mùa Hè Đẹp Nhất</p>
+                </div>
+                <div onclick ="chonPhim(13)" class="phim">
+                    <img class="anh-bai" src="f3.jpg" alt=""> 
+                    <p> Quý Tử Vượt Giàu</p>
+
+                </div>
+                <div onclick ="chonPhim(14)" class="phim">
+                    <img class="anh-bai" src="f4.jpg" alt=""> 
+                    <p>Lật Mặt 8: Vòng Tay Nắng</p>
+                </div>
+                <div onclick ="chonPhim(15)"class="phim">
+                    <img class="anh-bai" src="f5.jpg" alt="">
+                    <p>Cục vàng của ngoại</p>
+                </div>
+            </div>
+        </div><br>
+
+        
+        
+        
+
+    </main>
+    <!--Chân trang-->
+    <footer>
+        <div class="the-loai">
+            <b>Nhan Vat</b>
+            <div>
+                <div class="nhanvat">
+                    <div class="nv">
+                    <img src="nv1.jpg" alt=""> 
+                </div>
+                <div class="nv">
+                    <img src="nv2.jpg" alt=""> 
+                </div>
+                <div class="nv">
+                    <img src="nv3.jpg" alt=""> 
+                </div>
+                <div class="nv">
+                    <img src="nv4.jpg" alt=""> 
+                </div>
+                <div class="nv">
+                    <img src="nv5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+     <script>
+        var danhSachVid =[
+            {
+                id: 1,
+                ten:"Hàng xóm của tôi là Totoco",
+                duongDanhAnh:"33.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/fTXd-DpN3AI?si=ov6zhfPh7osbd7fi"
+            },
+            {
+                id: 2,
+                ten:"Đấu trường âm nhạc",
+                duongDanhAnh:"66.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/n7_Ihbj7Z6s?si=J7Tm5Q07c9ukh5Rp"
+                
+
+            },
+            {
+                id: 3,
+                ten:"Peter Rabbit2 : Cuộc trốn chạy",
+                duongDanhAnh:"22.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+               
+
+            },
+            {
+                id: 4,
+                ten:"Những mảnh ghép cảm xúc",
+                duongDanhAnh:"55.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/Q9FVWKeAa4c?si=1Myaf6RF1Z20lZ80"
+             
+
+            },
+            {
+                id: 5,
+                ten:"Biệt đội chuột chũi",
+                duongDanhAnh:"11.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/-rqNw6xO2ls?si=pyMdpvSjQjlEkPoc"
+            },
+            {
+                id: 6,
+                ten:"Kỷ Băng Hà (Ice Age)",
+                duongDanhAnh:"dv1.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/NnnVMDcQD18?si=8F_KSDv26-BPKtJd"
+
+            },
+            {
+                id: 7,
+                ten:"Madagascar<",
+                duongDanhAnh:"dv2.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/3e_CgSjT6pA?si=8Qn_knlytLKY5oCT"
+            },
+            {
+                id: 8,
+                ten:"Kung Fu Panda",
+                duongDanhAnh:"dv3.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/qj-Mlygkheg?si=Zy8m7VGp2MRVVy85"
+                
+
+            },
+            {
+                id: 9,
+                ten:"Boonie Bears: Những Chú Gấu Tí Hon 2",
+                duongDanhAnh:"dv5.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/RXxhX1V_gKQ?si=jirkyZq03PAXLZOq"
+               
+
+            },
+            {
+                id: 10,
+                ten:"Đẳng Cấp Thú Cưng (The Secret Life of Pets)",
+                duongDanhAnh:"dv6.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/8sqaRdwZzfM?si=3dothxo7_EslJrKs"
+             
+
+            },
+            {
+                id: 11,
+                ten:"Thám Tử Kiên: Kỳ Án Không Đầu",
+                duongDanhAnh:"f1.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+            },
+            {
+                id: 12,
+                ten:"Mùa Hè Đẹp Nhất",
+                duongDanhAnh:"f2.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+
+            },
+            {
+                id: 13,
+                ten:" Quý Tử Vượt Giàu",
+                duongDanhAnh:"f3.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+             
+
+            },
+            {
+                id: 14,
+                ten:"Lật Mặt 8: Vòng Tay Nắng",
+                duongDanhAnh:"f4.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+            },
+            {
+                id: 15,
+                ten:"Cục vàng của ngoại",
+                duongDanhAnh:"f5.jpg",
+                duongDanYotube:"https://www.youtube.com/embed/p6TAX5KAoAM?si=7AYmdyPVWIANyLYC"
+
+            },
+
+        ];
+        function chonPhim(id){
+            for (let i = 0 ; i < danhSachVid.length ; i++) {
+                if(danhSachVid[i].id ==id){
+                    document.getElementsByClassName ("video")[0].src=danhSachVid[i].duongDanYotube
+                }
+
+            }
+        }
+
+    </script>
+        
+            
+
+            
+                
+            
+           
+                
+        
+        
+
+    </footer>
+</body>
+</html>
