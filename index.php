@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    //code php viết ở đây 
+    // in ra màn hình dùng echo 
+    echo "Hello World" . "<br>" ; 
+    //Biến $Tên biến 
+    $hoTen = "Tuyet Nhung" . "<br>" ;
+    $tuoi = 21 ;
+
+    //Nối chuỗi 
+    echo $hoTen . " " . $tuoi . " tuoi " . "<br>";
+    $soThuNhat = 10 ;
+    $soThuHai = 5 ;
+
+    //+ - * / %
+    $ketQua = $soThuNhat + $soThuHai ;
+    echo $ketQua . "<br>";
+
+    //+= -= /= *= %=
+    $soThuNhat += $soThuHai ;
+    echo $soThuNhat . "<br>";
+
+    $diem = 3;
+    if ($diem < 4 ){
+        echo "F" ;
+        
+    }
+    elseif ($diem >=5 && $diem <7){
+        echo "C";
+    }
+    elseif ($diem >=7 && $diem <8){
+        echo "B";
+    }
+    else{
+        echo "A";
+    }
+    echo "<br>";
+    // switch case
+    $color = "red";
+    switch ($color) {
+        case "red":
+            echo "<br>";
+            echo "IS RED";
+            break;
+        case "blue":
+            echo "<br>";
+            echo "IS BLUE";
+            break;
+        default:
+            echo"<br>";
+            echo"no color" ;
+            break;
+    }
+
+    for ($i = 0 ; $i < 100 ; $i++){
+        echo $i . "<br>";
+    }
+    ?>
+    
+</body>
+</html>
